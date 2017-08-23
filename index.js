@@ -58,21 +58,21 @@ var getPlatforms = function (projectName) {
   platforms.push({
     name : 'android',
     isAdded : fs.existsSync('platforms/android'),
-    iconsPath : 'platforms/android/res/',
+    iconsPath : 'resources/android/icon/',
     icons : [
-      { name : 'drawable/icon.png',       size : 96 },
-      { name : 'drawable-hdpi/icon.png',  size : 72 },
-      { name : 'drawable-ldpi/icon.png',  size : 36 },
-      { name : 'drawable-mdpi/icon.png',  size : 48 },
-      { name : 'drawable-xhdpi/icon.png', size : 96 },
-      { name : 'drawable-xxhdpi/icon.png', size : 144 },
-      { name : 'drawable-xxxhdpi/icon.png', size : 192 },
-      { name : 'mipmap-hdpi/icon.png',  size : 72 },
-      { name : 'mipmap-ldpi/icon.png',  size : 36 },
-      { name : 'mipmap-mdpi/icon.png',  size : 48 },
-      { name : 'mipmap-xhdpi/icon.png', size : 96 },
-      { name : 'mipmap-xxhdpi/icon.png', size : 144 },
-      { name : 'mipmap-xxxhdpi/icon.png', size : 192 }
+      { name : 'drawable-icon.png',       size : 96 },
+      { name : 'drawable-hdpi-icon.png',  size : 72 },
+      { name : 'drawable-ldpi-icon.png',  size : 36 },
+      { name : 'drawable-mdpi-icon.png',  size : 48 },
+      { name : 'drawable-xhdpi-icon.png', size : 96 },
+      { name : 'drawable-xxhdpi-icon.png', size : 144 },
+      { name : 'drawable-xxxhdpi-icon.png', size : 192 },
+      { name : 'mipmap-hdpi-icon.png',  size : 72 },
+      { name : 'mipmap-ldpi-icon.png',  size : 36 },
+      { name : 'mipmap-mdpi-icon.png',  size : 48 },
+      { name : 'mipmap-xhdpi-icon.png', size : 96 },
+      { name : 'mipmap-xxhdpi-icon.png', size : 144 },
+      { name : 'mipmap-xxxhdpi-icon.png', size : 192 }
     ]
   });
   platforms.push({
@@ -96,53 +96,38 @@ var getPlatforms = function (projectName) {
     icons : [
       { name : 'StoreLogo.scale-100.png', size : 50  },
       { name : 'StoreLogo.scale-125.png', size : 63  },
-      { name : 'StoreLogo.scale-140.png', size : 70  },
       { name : 'StoreLogo.scale-150.png', size : 75  },
-      { name : 'StoreLogo.scale-180.png', size : 90  },
       { name : 'StoreLogo.scale-200.png', size : 100 },
-      { name : 'StoreLogo.scale-240.png', size : 120 },
       { name : 'StoreLogo.scale-400.png', size : 200 },
 
       { name : 'Square44x44Logo.scale-100.png', size : 44  },
       { name : 'Square44x44Logo.scale-125.png', size : 55  },
-      { name : 'Square44x44Logo.scale-140.png', size : 62  },
       { name : 'Square44x44Logo.scale-150.png', size : 66  },
       { name : 'Square44x44Logo.scale-200.png', size : 88  },
-      { name : 'Square44x44Logo.scale-240.png', size : 106  },
       { name : 'Square44x44Logo.scale-400.png', size : 176 },
 
       { name : 'Square71x71Logo.scale-100.png', size : 71  },
       { name : 'Square71x71Logo.scale-125.png', size : 89  },
-      { name : 'Square71x71Logo.scale-140.png', size : 99 },
       { name : 'Square71x71Logo.scale-150.png', size : 107 },
       { name : 'Square71x71Logo.scale-200.png', size : 142 },
-      { name : 'Square71x71Logo.scale-240.png', size : 170 },
       { name : 'Square71x71Logo.scale-400.png', size : 284 },
 
       { name : 'Square150x150Logo.scale-100.png', size : 150 },
       { name : 'Square150x150Logo.scale-125.png', size : 188 },
-      { name : 'Square150x150Logo.scale-140.png', size : 210 },
       { name : 'Square150x150Logo.scale-150.png', size : 225 },
       { name : 'Square150x150Logo.scale-200.png', size : 300 },
-      { name : 'Square150x150Logo.scale-240.png', size : 360 },
       { name : 'Square150x150Logo.scale-400.png', size : 600 },
 
       { name : 'Square310x310Logo.scale-100.png', size : 310  },
       { name : 'Square310x310Logo.scale-125.png', size : 388  },
-      { name : 'Square310x310Logo.scale-140.png', size : 434  },
       { name : 'Square310x310Logo.scale-150.png', size : 465  },
-      { name : 'Square310x310Logo.scale-180.png', size : 558  },
       { name : 'Square310x310Logo.scale-200.png', size : 620  },
       { name : 'Square310x310Logo.scale-400.png', size : 1240 },
 
-      { name : 'Wide310x150Logo.scale-80.png', size : 248, height : 120  },
       { name : 'Wide310x150Logo.scale-100.png', size : 310, height : 150  },
       { name : 'Wide310x150Logo.scale-125.png', size : 388, height : 188  },
-      { name : 'Wide310x150Logo.scale-140.png', size : 434, height : 210  },
       { name : 'Wide310x150Logo.scale-150.png', size : 465, height : 225  },
-      { name : 'Wide310x150Logo.scale-180.png', size : 558, height : 270  },
       { name : 'Wide310x150Logo.scale-200.png', size : 620, height : 300  },
-      { name : 'Wide310x150Logo.scale-240.png', size : 744, height : 360  },
       { name : 'Wide310x150Logo.scale-400.png', size : 1240, height : 600 }
     ]
   });
